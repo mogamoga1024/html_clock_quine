@@ -9,36 +9,36 @@ amagoha   oi   si   izo   uz         ounot   amagoh   ao   isi   izouzounota
 magoha   ois   ii   zo   uzounota  magohao  isiizou   zo   un   otamagohaois
 iizou  zounot  am  ag   ohaoisiiz  ouzoun   otamagoh  ao  isi   izouzounotam
 agoh        a      oi       siizo  uzouno  tamagohao      is   iizouzounotam
-agohaoisiizouzounotamagohaoisiizouzounot   amagohaoisiizouzounotamagohaoisii
-zouzounotamagohaoisiizouzounotamagohaoisiizouzounotamagohaoisiizouzounotamag
-ohaoisi         izouzounota    mag*/d=new@Date();canvas=new@OffscreenCanvas(
-76,13+           24+16);co     ntext=canvas.getContext("2d");context.font="1
-3px@sa     n     s";conte      xt.textBaseline="top";context.fillText(d.getF
-ullYe     ar(     )+"@/@       "+String(d.getMonth()+1).padStart(2,"0"),4,0)
-;cont    ext.f    ont="        24px@sans";context.fillText(String(d.getDate(
-)).pa    dStar    t(2,    "    0"),4,13);context.font="13px@sans";context.fi
-llTex   t(["Sun   ","    Mo    n","Tue","Wed","Thu","Fri","Sat"][d.getDay()]
-,4+36   ,13+10)   ;c    ont    ext.font="16px@san  s";hhmm=String(d.getHours
-()).p   adStart   (     2,"    0")+":"+            String(d.getMinutes()).pa
-dStar   t(2,"0"   )    ;con    text.fillTex  t(hh  mm,4,13+24);w=context.mea
-sureT    ext(h    h               mm).width  ;con      te  xt   .font="13px@
-sans"    ;cont    e               xt.fillTe  xt(S   t   r  in   g(d.getSecon
-ds())    .padS    tart(2,"0    "),4+w+2,13+  24+3  );   i  ma   geData=conte
-xt.ge     tIm     ageData(0    ,0,canvas.wi  dth,  can  v  as   .height);tem
-plate=     "     ";for(i=0;    i<imageData.  data  .le  n  gt   h;i+=4){alph
-a=imag           eData.data    [i+3];templa  te+=  alp  h   a   ===0?"a":"@"
-;if((i/         4+1)%imageD    ata.width===  0){t  emp  l       ate+="\\n";}
-}template=template.replace(/^(.*)(\\r?\\n\\1)+$/gm,"$1");doc=document.docume
-ntElem      ent;d      oc.style.fon   tFami     ly="monospace";text=document
-.quer   yS   ele   ctor("script").    oute   r   HTML.replace(/[@\\n]/g,"");
-diffL  eng   th   =template.repl      ace   (/[   @\\n]/g,"").length-text.le
-ngth   ;miz  um  asi="";fo   r(i=0;   i<d   iff   Leng     th;      i++){miz
-umas   i+="           zoun   otamag   oha   oisi  izo   u   "   [i   %21];}t
-ext=   text       .r   eplace("/**/   ","   /*"+  mizumasi  +   "*   /");res
-ult=   "";i      =0;f   or(j=0;j<te   mpl    at   e.length  ;j   +  +){if(te
-mpla   te[j      ]===   "\\n"){resu   lt+="       <br>";c   on      tinue;}e
-lse@   if(t  e   mpla   te[j]==="@"   ){result+   ="&"+"   nb   sp   ;";cont
-inue;  }ch   ar   =te   xt[i++];if(   char==="<   "){ch   ar=  "&"   +"lt;";
-}else   @i   f(   ch   ar=   ==">")   {char="&   "+"g   t;";}   re   sult+=c
-har;}d      oc.i      nner   HTM        L=     result        +      text.rep
-lace(/\\*.*?\\*/,"**");`;eval(z.replace(/[\s@]/g,m=>m==="@"?s:""));</script>
+agohaoisiizouzounotamagohaoisiizouzounot   amagoh*/d=new@Date();canvas=new@O
+ffscreenCanvas(76,13+24+16);context=canvas.getContext("2d");context.font="13
+px@sans         ";context.t    extBaseline="top";context.fillText(d.getFullY
+ear()+           "@/@"+Str     ing(d.getMonth()+1).padStart(2,"0"),4,0);cont
+ext.fo     n     t="24px@      sans";context.fillText(String(d.getDate()).pa
+dStar     t(2     ,"0"),       4,13);context.font="13px@sans";context.fillTe
+xt(["    Sun",    "Mon"        ,"Tue","Wed","Thu","Fri","Sat"][d.getDay()],4
++36,1    3+10)    ;con    t    ext.font="16px@sans";hhmm=String(d.getHours()
+).pad   Start(2   ,"0    ")    +":"+String(d.getMinutes()).padStart(2,"0");c
+ontex   t.fillT   ex    t(h    hmm,4,13+24);w=con  text.measureText(hhmm).wi
+dth;c   ontext.   f     ont    ="13px@s            ans";context.fillText(Str
+ing(d   .getSec   o    nds(    )).padStart(  2,"0  "),4+w+2,13+24+3);imageDa
+ta=co    ntext    .               getImageD  ata(      0,  0,   canvas.width
+,canv    as.he    i               ght);temp  late   =   "  ";   for(i=0;i<im
+ageDa    ta.da    ta.length    ;i+=4){alpha  =ima  ge   D  at   a.data[i+3];
+templ     ate     +=alpha==    =0?"a":"@";i  f((i  /4+  1  )%   imageData.wi
+dth===     0     ){template    +="\\n";}}te  mpla  te=  t  em   plate.replac
+e(/^(.           *)(\\r?\\n    \\1)+$/gm,"$  1");  doc  =   d   ocument.docu
+mentEle         ment;doc.st    yle.fontFami  ly="  mon  o       space";text=
+document.querySelector("script").outerHTML.replace(/[@\\n]/g,"");diffLength=
+templa      te.re      place(/[@        \\        n]/g,"").length-text.lengt
+h;miz   um   asi   ="";for(i=0;i   <diffLe   ngth;i++){mizumasi+="zounotamag
+ohaoi  sii   zo   u"[i%21];}text   =text.r   eplace("/*"+"*/","/*"+mizumasi+
+"*/"   );re  su  lt1="";re   sul   t2="";i   =0;for(j=       0      ;j<templ
+ate.   leng           th;j   ++)       {if       (temp  late[   j]   ==="\\n
+"){r   esul       t1   +="<br>";resu    lt2+="    \\n"  ;cont   in   ue;}els
+e@if   (tem      plat   e[j]==="@"){r   esult1+   ="&"      +"   n  bsp;";re
+sult   2+="      @";c   ontinue;}char=  text[i++  ];result   2      +=char;i
+f(ch   ar==  =   "<")   {char="&"+"lt   ;";}els   e@if(cha      r=   ==">"){
+char=  "&"   +"   gt;   ";}result1+=c   har;}te   xt=text.     rep   lace(/\
+\*[zo   un   ta   mg   his   ]*   \\    *   /,    "**   "   )   ;d   oc.inne
+rHTML=      resu      lt1+   tex      t;co      nsole      .lo      g(result
+2);`.replace(/[\s@]/g,m=>m==="@"?s:"");setInterval(()=>eval(z),16);</script>
