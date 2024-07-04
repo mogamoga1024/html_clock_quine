@@ -30,19 +30,19 @@ CharC    ount|    |rowCharC    ount!==image  Data  .w   i  dt   h){template+
 =row+     n;}     row="";pr    evRowCharCou  nt=r  owC  h  ar   Count;rowCha
 rCount     =     0;}}margin    ="a".repeat(  imag  eDa  t  a.   width)+n;tem
 plate=           margin+tem    plate+margin  ;doc  =do  c   u   ment.documen
-tElemen         t;doc.style    .fontFamily=  "mon  osp  a       ce";text=doc
-ument.querySelector("script").outerHTML.replace(/@/g,"").replaceAll(n,"").re
-place(      /#[z      ountamghis]     *#/,       "#"+"#");diffLength=templat
-e.rep   la   ce   (/   @/g,"").r   e    pl  ace   All(n,"").length-text.leng
-th;mi  zum   a   si="  ";for(i=   0;i   <diffLe   ngth;i++){mizumasi+="zouno
-tama   goha  o   isi   izo   u"   [i%   21];}te   xt=t     ext     .replace(
-"#"+   "#",   "    #   "+m   iz   umas  i+"#")   ;res   u   l   t   1="";res
-ult2   ="";   i=      0;for(j=0   ;j<t  empl    ate.l   en      gt   h;j++){
-if(t   empl   a   t    e[j]===n   ){re  sult1+    ="<  br>     ";r   esult2+
-=n;c   onti      nue    ;}else@   if(t  emplate   [j]  ===     "@"   ){resul
-t1+=   "&"+  "   nbsp   ;";resu   lt2   +="@";c   ont  inu     e;}   char=te
-xt[i+  +];   r   esul   t2+=cha   r;i   f(char=   =="   <"      ){   char="&
-"+"lt   ;"   ;}   el   se@   if(   ch   a   r=    =="   >   "   )   {char="&
-"+"gt;      ";}r      esul   t1+=      cha      r;}tex     t=t     ext.repla
+tElemen         t;doc.style    .fontFamily=  "mon  osp  a       ce";doc.styl
+e.whiteSpace="nowrap";text=document.querySelector("script").outerHTML.replac
+e(/@/g      ,"")      .replaceAll(n,   "")      .replace(/#[zountamghis]*#/,
+"#"+"   #"   );   d    iffLength=te    mpl  at    e.replace(/@/g,"").replace
+All(n  ,""   )   .le   ngth-text.l     ength;mi   zumasi="";for(i=0;i<diffLe
+ngth   ;i++  )   {miz  uma   si+="     zounotam   agohaoi   si      izou"[i%
+21];   }tex      t=te   xt   .rep      lace("#"   +"#","    #   "+   mizumas
+i+"#   ");r      esul   t1="";re   s   ult2=""   ;i=0;f     o   r(   j=0;j<t
+empl   ate.   l   en    gth;j++   ){   if(temp   late[  j   ]=   =  =n){resu
+lt1+   ="<b   r>       ";result  2+=   n;cont   inue;  }i   f(      template
+[j]=   =="@  "){resu   lt1+="&"          +"n   bsp;"            ;r   esult2+
+="@";  con   tinue;}   char=text[i++   ];re   sult2+=char   ;  if(   char===
+"<"){   ch   ar="&"   +"lt   ;";}els   e@    if(char===">   "   ){   char="&
+"+"gt;      ";}      resul   t1+=cha   r;          }text=   te      xt.repla
 ce(/#[zountamghis]*#/,"#"+"#");doc.innerHTML=result1+text;console.log(result
 2);`.replace(/[\s@]/g,m=>m==="@"?s:"");setInterval(()=>eval(z),16);</script>
